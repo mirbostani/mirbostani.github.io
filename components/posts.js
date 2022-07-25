@@ -1,12 +1,12 @@
 import Post from "./post";
 
 export default function Posts({ postsData }) {
-  const firstPosts = postsData.slice(0, 1);
-  const secondPosts = postsData.slice(1, 3);
-  const thirdPosts = postsData.slice(3);
-  // const firstPosts = []
-  // const secondPosts = []
-  // const thirdPosts = postsData;
+  // const firstPosts = postsData.slice(0, 1);
+  // const secondPosts = postsData.slice(1, 3);
+  // const thirdPosts = postsData.slice(3);
+  const firstPosts = []
+  const secondPosts = []
+  const thirdPosts = postsData;
   return (
     <div>
       <section className="flex flex-col">

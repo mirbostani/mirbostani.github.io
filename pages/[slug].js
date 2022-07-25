@@ -75,8 +75,14 @@ export default function Post({ slug, postData, darkMode }) {
     };
     const onScroll = (e) => {
       const currScrollTop = e.target.documentElement.scrollTop;
-      setScrollTop(currScrollTop);
-      updateTocAnchors(e);
+      // setScrollTop(currScrollTop);
+      // updateTocAnchors(e);
+      setScrollTop((prevScrollTop, props) => {
+        updateTocAnchors(e);
+        if (Math.abs(prevScrollTop - currScrollTop) > 200) {
+          return currScrollTop;
+        }
+      });
     };
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
@@ -127,7 +133,7 @@ export default function Post({ slug, postData, darkMode }) {
             <aside className="sidebar">
               <div className="toc bg-gray-100 dark:bg-gray-800">
                 <h1 className="title text-gray-600 dark:text-gray-300">
-                  {t("table_of_content")}
+                  {t("table_of_contents")}
                 </h1>
                 {postData.headingAnchors.length > 0 && (
                   <ul className="body">

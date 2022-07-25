@@ -9,7 +9,7 @@
     "build": "next build",
     "postbuild": "next-sitemap --config sitemap.config.js",
     "export": "rm -rf dist && next export -o dist/",
-    "deploy": "rm -rf node_modules/.cache && next build && rm -rf dist && next export -o dist/ && touch dist/.nojekyll"
+    "deploy": "rm -rf node_modules/.cache && next build && rm -rf dist && next export -o dist/ && touch dist/.nojekyll && echo \"mirbostani.com\" > dist/CNAME"
   },
   "dependencies": {
     "@fontsource/merriweather": "^4.5.1",

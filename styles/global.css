@@ -65,3 +65,7 @@ a {
 .dark.sk-post .sk-post-content .sk-syntax-dark {
   @apply block;
 }
+
+.dark.sk-post .sk-post-content .sk-syntax-dark code span.token {
+  background-color: transparent !important;
+}

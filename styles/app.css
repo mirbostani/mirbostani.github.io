@@ -92,7 +92,7 @@ h3 {
   .post > .content > .sidebar {
     --offset: var(--header-height);
     align-self: flex-start;
-    width: 300px;
+    width: 250px;
     position: -webkit-sticky;
     position: sticky;
     top: var(--offset);
@@ -128,7 +128,7 @@ h3 {
 
 @media (min-width: 1024px) {
   .post > .content > .article {
-    width: calc(100% - var(--margin) - 300px);
+    width: calc(100% - var(--margin) - 250px);
   }
 }
 
@@ -170,4 +170,8 @@ h3 {
 .post > .content > .article pre {
   margin-bottom: var(--margin);
   width: 100%;
+}
+
+.codesnippet .token {
+  background-color: none !important;
 }

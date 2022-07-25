@@ -11,6 +11,10 @@ import { prism as DarkStyle } from "react-syntax-highlighter/dist/cjs/styles/pri
 
 function components(darkMode) {
   return {
+    img({ node, inline, className, children, ...props }) {
+      props.src = props.src.replace(/^\.\.\/public/, "");
+      return <img {...props} />;
+    },
     code({ node, inline, className, children, ...props }) {
       const match = /language-(\w+)/.exec(className || "");
       return !inline && match ? (
