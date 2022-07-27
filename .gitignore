@@ -31,5 +31,5 @@ yarn-error.log*
 .env.production.local
 
 # sitemap
-sitemap.xml
-robots.txt
+# sitemap.xml # used for GitHub Pages
+# robots.txt # used for GitHub Pages
