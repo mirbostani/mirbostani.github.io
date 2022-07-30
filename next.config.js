@@ -20,4 +20,13 @@ module.exports = {
       unoptimized: true,
     },
   },
+  async redirects() {
+    return [
+      {
+        source: "/posts/:slug",
+        destination: "/:slug",
+        permanent: true,
+      },
+    ];
+  },
 };
