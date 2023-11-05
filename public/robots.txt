@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://mirbostani.com
-
-# Sitemaps
-Sitemap: https://mirbostani.com/sitemap.xml
