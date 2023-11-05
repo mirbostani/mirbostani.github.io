@@ -1,11 +1,11 @@
 {
-  "site_name": "مرتضی میربستانی",
-  "site_title": "بلاگ مرتضی میربستانی",
+  "site_name": "سید مرتضی میربستانی",
+  "site_title": "بلاگ سید مرتضی میربستانی",
   "site_description": "مرتضی میربستانی هستم، محقق در زمینه یادگیری ماشین و توسعه دهنده نرم افزار از ایران. در این وبسایت، درباره پروژه های شخصی، تجربیات و علایق ام در زمینه های مختلف علوم کامپیوتر مینویسم.",
   "copyright": "©",
-  "mirbostani_firstname": "مرتضی",
+  "mirbostani_firstname": "سید مرتضی",
   "mirbostani_lastname": "میربستانی",
-  "mirbostani_fullname": "مرتضی میربستانی",
+  "mirbostani_fullname": "سید مرتضی میربستانی",
   "english": "English",
   "farsi": "فارسی",
   "home": "خانه",
@@ -23,5 +23,7 @@
   "programming": "برنامه نویسی",
   "linux": "لینوکس",
   "algorithms": "الگوریتم ها",
-  "machinelearning": "یادگیری ماشین"
+  "machinelearning": "یادگیری ماشین",
+  "publications": "مقالات",
+  "projects": "پروژه‌ها"
 }

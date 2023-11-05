@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://mirbostani.com</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.329Z</lastmod></url>
-<url><loc>https://mirbostani.com/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
-<url><loc>https://mirbostani.com/blog</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
-<url><loc>https://mirbostani.com/disclaimer</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
-<url><loc>https://mirbostani.com/tags/flutter</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
-<url><loc>https://mirbostani.com/tags/virtualbox</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
-<url><loc>https://mirbostani.com/tags/nextjs</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
-<url><loc>https://mirbostani.com/tags/reactjs</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
-<url><loc>https://mirbostani.com/tags/github</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
-<url><loc>https://mirbostani.com/categories/App Development</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
-<url><loc>https://mirbostani.com/categories/Web Development</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
-<url><loc>https://mirbostani.com/build-windows-applications-with-flutter-on-a-linux-machine</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
-<url><loc>https://mirbostani.com/create-a-table-of-contents-for-a-nextjs-markdown-blog</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
-<url><loc>https://mirbostani.com/deploy-static-nextjs-websites-on-github-pages</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2022-07-25T10:53:27.330Z</lastmod></url>
+<url><loc>https://mirbostani.com</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.768Z</lastmod></url>
+<url><loc>https://mirbostani.com/blog</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.769Z</lastmod></url>
+<url><loc>https://mirbostani.com/disclaimer</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.769Z</lastmod></url>
+<url><loc>https://mirbostani.com/tags/flutter</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.769Z</lastmod></url>
+<url><loc>https://mirbostani.com/tags/virtualbox</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.769Z</lastmod></url>
+<url><loc>https://mirbostani.com/tags/nextjs</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.769Z</lastmod></url>
+<url><loc>https://mirbostani.com/tags/reactjs</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.769Z</lastmod></url>
+<url><loc>https://mirbostani.com/tags/github</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.769Z</lastmod></url>
+<url><loc>https://mirbostani.com/categories/App Development</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.769Z</lastmod></url>
+<url><loc>https://mirbostani.com/categories/Web Development</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.769Z</lastmod></url>
+<url><loc>https://mirbostani.com/build-windows-applications-with-flutter-on-a-linux-machine</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.769Z</lastmod></url>
+<url><loc>https://mirbostani.com/create-a-table-of-contents-for-a-nextjs-markdown-blog</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.769Z</lastmod></url>
+<url><loc>https://mirbostani.com/deploy-static-nextjs-websites-on-github-pages</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-11-05T08:01:16.769Z</lastmod></url>
 </urlset>

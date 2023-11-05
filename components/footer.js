@@ -22,19 +22,14 @@ export default function Footer() {
           </LinkX>
         </div>
         <div className="flex items-center text-sm space-x-4">
-        <LinkX href={{ pathname: "/blog", query: query }}>
-            <a>{t("blog")}</a>
-          </LinkX>
-          <LinkX href={{ pathname: "/about", query: query }}>
-            <a>{t("about")}</a>
-          </LinkX>
           <LinkX href={{ pathname: "/disclaimer", query: query }}>
             <a>{t("disclaimer")}</a>
           </LinkX>
-          {member.twitter && <Social type="twitter" link={member.twitter} />}
+          {member.googlescholar && <Social type="googlescholar" link={member.googlescholar} />}
           {member.github && <Social type="github" link={member.github} />}
           {member.linkedin && <Social type="linkedin" link={member.linkedin} />}
           {member.medium && <Social type="medium" link={member.medium} />}
+          {member.twitter && <Social type="twitter" link={member.twitter} />}
         </div>
       </div>
     </footer>

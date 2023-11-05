@@ -24,11 +24,6 @@ export function HeaderMenuBar() {
           {t("blog")}
         </a>
       </LinkX>
-      <LinkX href={{pathname: "/about", query: query}}>
-        <a className="text-gray-500 dark:text-gray-200 hover:text-gray-800">
-          {t("about")}
-        </a>
-      </LinkX>
     </div>
   );
 }
@@ -120,12 +115,12 @@ export default function Header({ darkMode }) {
               style={{ display: displayMenu ? "block" : "none" }}
             >
               <HeaderMenuBar />
-              <HeaderDarkModeToggleButton darkMode={darkMode} />
+              {/* <HeaderDarkModeToggleButton darkMode={darkMode} /> */}
             </div>
             {/* Desktop */}
             <div className="hidden lg:flex lg:flex-row lg:items-center lg:justify-end lg:flex-1 lg:space-x-2">
               <HeaderMenuBar />
-              <HeaderDarkModeToggleButton darkMode={darkMode} />
+              {/* <HeaderDarkModeToggleButton darkMode={darkMode} /> */}
             </div>
           </div>
         </header>

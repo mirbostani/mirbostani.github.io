@@ -29,14 +29,15 @@ export default function ProfileInfo({ member, avatar, className }) {
               </span>
             </h4>
             <div className="flex flex-row justify-center lg:justify-start items-center text-sm space-x-4 text-gray-500">
-              {member.twitter && (
-                <Social type="twitter" link={member.twitter} />
-              )}
+              {member.googlescholar && <Social type="googlescholar" link={member.googlescholar} />}
               {member.github && <Social type="github" link={member.github} />}
               {member.linkedin && (
                 <Social type="linkedin" link={member.linkedin} />
               )}
               {member.medium && <Social type="medium" link={member.medium} />}
+              {member.twitter && (
+                <Social type="twitter" link={member.twitter} />
+              )}
             </div>
           </div>
         </div>
