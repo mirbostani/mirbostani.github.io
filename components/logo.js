@@ -24,10 +24,10 @@ export default function Logo({ darkMode }) {
             />
           </div>
           <div>
-            <h1 className="text-2xl font-extrabold dark:text-white">
+            <h1 className="text-lg lg:text-2xl font-extrabold dark:text-white">
               {t("mirbostani_fullname")}
             </h1>
-            <h4>{member.title}</h4>
+            <h4 className="text-xs lg:text-base">{member.title}</h4>
           </div>
         </a>
       </LinkX>
